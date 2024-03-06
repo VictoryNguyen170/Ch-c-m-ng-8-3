@@ -17,6 +17,20 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>❤ Gửi chị em BTTg ❤</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Audio Player</title>
+	<style>
+		body {
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+		}
+	</style>
   </head>
   <body>
     <div class="wrapper">
@@ -42,10 +56,15 @@
         </p>
       </div>
     </div>
+    <audio-player title="Chúc mừng 8/3"
+	              src="ANH THỀ ĐẤY  THANH HƯNG  OFFICIAL MUSIC VIDEO.mp3"
+	              bar-width="5"
+	              bar-gap="2"
+	              preload autoplay
+	               ></audio-player>
+
+	<script src="player.js"></script>
   </body>
-  <audio controls autoplay>
-    <source src="ANH THỀ ĐẤY  THANH HƯNG  OFFICIAL MUSIC VIDEO.mp3">
-  </audio>
   <script type="text/javascript" src="vanilla-tilt.js"></script>
   <script>
     VanillaTilt.init(document.querySelector(".wrapper"), {
